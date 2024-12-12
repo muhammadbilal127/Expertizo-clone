@@ -1,0 +1,1322 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999px;
+
+}
+
+.container-image{
+        background-image: url('https://expertizo.pk/assets/img/hero-bg.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 800px;
+        margin: 0px auto;
+    }
+.container{
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+
+body {
+    font-family: "Nunito", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    padding: 0px 0px 0px 60px;
+}
+
+.underline {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0px 60px 0px 0px;
+    color: #4151f4;
+    padding-bottom: 6px;
+    border: 1px solid white;
+    font-weight: bolder;
+}
+
+.underline1:hover {
+    color: blue;
+
+    border-bottom: 1px solid #4151f4;
+}
+
+.underline2:hover {
+    color: blue;
+    border-bottom: 1px solid #4151f4;
+}
+
+.underline3:hover {
+    border-bottom: 1px solid #4151f4;
+    color: blue;
+}
+
+.underline4:hover {
+    border-bottom: 1px solid #4151f4;
+    color: blue;
+}
+
+.underline5:hover {
+    border-bottom: 1px solid #4151f4;
+    color: blue;
+}
+
+.underline6:hover {
+    border-bottom: 1px solid #4151f4;
+    color: blue;
+}
+
+.underline7:hover {
+    border-bottom: 1px solid #4151f4;
+    color: blue;
+}
+
+.step-1 {
+
+    padding: 100px 0px 0px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.step-2 {
+    font-size: 30px;
+    color: #4154f1;
+
+
+}
+
+
+.step-3 {
+    font-size: 25px;
+    margin-top: 1px;
+    position: relative;
+    bottom: 40px;
+}
+
+
+.opacity {
+    opacity: 0.7;
+}
+
+.button1 {
+    border: 1px solid #4154f1;
+    background-color: #4151f4;
+    color: white;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 38px;
+    margin: px 0px 0px 0px;
+    font-size: 15px;
+    font-family:Nunito ,sans-serif;
+}
+
+.contact-svg-1{
+position:absolute;
+bottom: 9px;
+margin:2px 0px 0px 10px ;
+}
+
+
+.step-5 {
+    position: relative;
+    bottom: 420px;
+    left: 500px;
+}
+
+
+.step-6 {
+    background-color: white;
+    padding: 20px 20px 0px 40px;
+    position: relative;
+    bottom: 170px;
+    display: flex;
+    max-width: max-content;
+}
+
+.step-7 {
+    padding: 0px 0px 0px 20px;
+    background-color: #f6f9ff;
+}
+
+.h4 {
+    color: #4151f4;
+    padding: 0px 0px 0px 20px;
+}
+
+.p {
+    font-size: 25px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.p-1 {
+    font-size: 20px;
+    opacity: 0.8;
+}    
+
+.step-8 {
+    position: relative;
+    bottom: 50px;
+    font-family: sans-serif;
+
+}
+
+.p-1 {
+    font-size: 20px;
+    opacity: 0.8;
+}  
+.p-2{
+    text-align: center;
+    color: #4151f4;
+}
+
+
+
+.p-18{
+    text-align: center;
+    color: #4151f4;
+}
+
+.h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #012970;
+    flex-direction: column;
+
+}
+
+.step-9 {
+    padding: 20px 0px 0px 80px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+
+
+.step-10 {
+    background-color: #f1f1f1;
+    padding: 30px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+
+}
+
+.cards {
+    width: 330px;
+    height: 380px;
+    background-color: white;
+    margin-left: 40px;
+    border-bottom: 3px solid #2db6fa;
+    border-radius: 5px;
+}
+
+.h3 {
+    text-align: center;
+    margin: 60px 0px 0px 0px;
+    font-size: 25px;
+    opacity: 0.7;
+}
+
+.p-3 {
+    opacity: 0.7;
+    text-align: center;
+}
+
+
+.card-1 {
+    width: 330px;
+    height: 380px;
+    background-color: white;
+    border-bottom: 3px solid #FD7E14;
+    border-radius: 5px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.card-2 {
+    width: 330px;
+    height: 380px;
+    background-color: white;
+    border-bottom: 3px solid green;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+
+.card-3  {
+
+    width: 330px;
+    height: 380px;
+    background-color: white;
+    margin: 20px 0px 0px 40px;
+    border-bottom: 4px solid red;
+    border-radius: 5px;
+}
+
+.card-4 {
+    width: 330px;
+    height: 380px;
+    background-color: white;
+    border-bottom: 4px solid purple;
+    border-radius: 5px;
+    margin: 20px 50px 0px 0px;
+
+}
+
+
+.card-5 {
+    width: 330px;
+    height: 380px;
+    background-color: white;
+    border-bottom: 4px solid #D63384;
+    border-radius: 5px;
+    margin: 20px 40px 0px 0px;
+}
+
+.cards:hover {
+    background-color: #2db6fa;
+    color: white;
+}
+
+.cards-image {
+    position: relative;
+    left: 120px;
+    width: 80px;
+    height: 90px;
+    top: 40px;
+    border: 1px solid lightblue;
+    background-color: lightblue;
+    padding-left: 20px;
+}
+
+.cards:hover .card-image-1 {
+    background-color: white;
+}
+
+.card-image-1 {
+    position: relative;
+    top: 30px;
+    border: 1px solid peru;
+    width: 80px;
+    height: 90px;
+    left: 140px;
+    background-color: peru;
+}
+
+.card-1:hover {
+    background-color: #FD7E14;
+    color: white;
+}
+
+.card-1:hover .card-image-1 {
+    background-color: white;
+}
+
+.card-image-2 {
+    position: relative;
+    top: 20px;
+    left: 140px;
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+    width: 80px;
+    padding-left: 20px;
+    height: 100px;
+}
+
+.card-2:hover {
+    background-color: green;
+    color: white;
+    opacity: 0.7;
+}
+
+.card-2:hover .card-image-2 {
+    background-color: white;
+}
+
+.card-image-3 {
+    position: relative;
+    top: 20px;
+    left: 130px;
+    background-color: #fee8e9;
+    border: 1px solid #fee8e9;
+    width: 80px;
+    padding-left: 20px;
+    height: 100px;
+
+}
+
+.card-3:hover {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.card-3:hover .card-image-3 {
+    background-color: white;
+}
+
+.card-image-4 {
+    position: relative;
+    top: 20px;
+    left: 140px;
+    background-color: #eeccf7;
+    border: 1px solid #eeccf7;
+    width: 90px;
+    padding-left: 20px;
+    height: 100px;
+}
+
+
+.card-4:hover {
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.card-4:hover .cards-image-4 {
+    background-color: white;
+}
+
+.card-image-5 {
+    position: relative;
+    top: 20px;
+    left: 130px;
+    background-color: #eeccf7;
+    border: 1px solid #eeccf7;
+    width: 80px;
+    padding-left: 20px;
+    height: 100px;
+}
+
+.card-5:hover .card-image-5 {
+    background-color: white;
+}
+
+
+.card-5:hover {
+    background-color: #D63384;
+    color: white;
+}
+
+.p-4 {
+    text-align: center;
+    color: #4151f4;
+    margin: 80px 0px 0px 0px;
+}
+
+.step-11 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.step-12 {
+    margin: 0px 0px 0px 40px;
+    justify-content:
+}
+
+.step-13 {
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.p-5 {
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 220px;
+    height: 20px;
+    background-color: white;
+    color: #4151f4;
+    text-align: center;
+    margin: 0px 20px 30px 0px;
+    padding: 10px 20px 40px 0px;
+    font-weight: bold;
+}
+
+.span {
+    border:1px solid grey;
+    margin: 0px 20px 0px 0px;
+    width: 10px;
+    height: 40px;
+    color: blue;
+    padding: 0px 10px 0px 10px;
+}
+
+.span:hover {
+    background-color: darkblue;
+}
+
+
+.button-2 {
+    border: 1px solid #4151f4;
+    border-radius: 8px;
+    width: 60px;
+    height: 30px;
+    margin-left: 450px;
+}
+
+.button-3 {
+    width: 60px;
+    border: 1px solid white;
+    margin-left: 30px;
+    height: 30px;
+    font-size: larger;
+}
+
+.button-4 {
+    width: 60px;
+    border: 1px solid white;
+    margin-left: 30px;
+    height: 30px;
+    font-size: larger;
+}
+
+
+.button-3:hover {
+    border: 1px solid #4151f4;
+    border-radius: 10px;
+}
+
+.button-4:hover {
+    border: 1px solid #4151f4;
+    border-radius: 10px;
+}
+
+.step-14 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.step-15 {
+    margin: 20px 0px 20px 50px;
+}
+
+.step-16 {
+    margin: 20px 10px 20px 0px;
+
+}
+
+.step-17 {
+    margin: 20px 70px 20px 0px;
+}
+
+.step-18 {
+    margin: 20px 0px 20px 50px;
+}
+
+.step-19 {
+    margin: 20px 10px 20px 0px;
+}
+
+.step-20 {
+    margin: 20px 70px 20px 0px;
+}
+
+.step-21 {
+    margin: 20px 0px 20px 50px;
+}
+
+.step-22 {
+    margin: 20px 10px 20px 0px;
+}
+
+.step-23 {
+    margin: 20px 70px 20px 0px;
+}
+
+.step-24 {
+    margin: 20px 0px 20px 50px;
+}
+
+.step-25 {
+    margin: 20px 10px 20px 0px;
+}
+
+.step-26 {
+    margin: 20px 70px 20px 0px;
+}
+
+.images {
+    border: 1px solid #f1f1f1;
+    transform: scale(1);
+    transition-duration: 3s;
+}
+
+.images:hover {
+    transform: scale(1.1);
+}
+
+.step-27 {
+    display: flex;
+}
+
+.svg {
+    width: 20px;
+    margin-left: 60px;
+    color: yellow;
+    margin-top: 30px;
+
+}
+
+.step-28 {
+    width: 260px;
+    height: 470px;
+    background-color: #f1f1f1;
+    margin: 0px 0px 0px 20px;
+    padding-left: 60px;
+    opacity: 0.5;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px 0px 40px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.p-6 {
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+
+.p-7 {
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+    opacity: 0.7;
+
+}
+
+.step-29 {
+    width: 270px;
+    height: 470px;
+    background-color: #f1f1f1;
+    margin: 0px 0px 0px 40px;
+    padding-left: 60px;
+
+}
+
+.step-30 {
+    width: 270px;
+    height: 470px;
+    background-color: #f1f1f1;
+    margin: 0px 0px 0px 40px;
+    padding-left: 60px;
+    position: relative;
+    left: 700px;
+    bottom: 470px;
+    opacity: 0.4;
+}
+
+.p-8 {
+    position: relative;
+    text-align: center;
+    bottom: 350px;
+    color: #4151f4;
+}
+
+.step-31 {
+    display: flex;
+    align-items: center;
+}
+
+.h2-1 {
+    text-align: center;
+    bottom: 345px;
+    position: relative;
+    color: #012970;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.step-32 {
+    width: 320px;
+    height: 600px;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    position: relative;
+    bottom: 350px;
+    left: 40px;
+}
+
+
+.last-card {
+    width: 200px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+
+.p-9 {
+    margin: 0px 0px 0px 50px;
+    padding-top: 10px;
+    padding-right: 15px;
+    color: #4151f4;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.p-10 {
+    position: relative;
+    left: 40px;
+    border: 1px solid blue;
+    width: 200px;
+    padding: 0px 0px 0px 20px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+}
+
+.p-11 {
+    position: relative;
+    top: 100px;
+    margin-left: 80px;
+    color: #4151f4;
+    opacity: 0.7;
+}
+
+.svg-1 {
+    position: relative;
+    left: 170px;
+    top: 65px;
+}
+
+
+.step-33 {
+    width: 320px;
+    height: 600px;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    position: relative;
+    left: 80px;
+    bottom: 350px;
+}
+
+.p-12 {
+    position: relative;
+    left: 112px;
+    border: 1px solid blue;
+    width: 150px;
+    padding: 0px 0px 0px 20px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    bottom: 45px;
+    margin-bottom: 10px;
+}
+
+.p-13 {
+    position: relative;
+    bottom: 50px;
+    margin-left: 40px;
+    opacity: 0.7;
+}
+
+.svg-2 {
+    position: relative;
+    bottom: 90px;
+    left: 160px;
+}
+
+.p-14 {
+    position: relative;
+    bottom: 55px;
+    color: #4151f4;
+    opacity: 0.7;
+    margin-left: 70px;
+}
+
+.p-15 {
+    bottom: 200px;
+    position: relative;
+    text-align: center;
+    color: #4151f4;
+
+}
+
+.h2-2 {
+    position: relative;
+    bottom: 190px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: darkblue;
+}
+
+.step-34 {
+    width: 550px;
+    height: 450px;
+    position: relative;
+    bottom: 200px;
+    left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.step-35 {
+    width: 220px;
+    height: 200px;
+    background-color: #FAFBFF;
+    margin: 20px 10px 0px 20px;
+}
+
+.location {
+    margin: 10px 0px 0px 20px;
+}
+
+.p-16 {
+    color: #4151f4;
+    margin: 10px;
+}
+
+.p-17 {
+    opacity: 0.7;
+
+}
+
+.step-36 {
+   width: 220px;
+    height: 200px;
+    background-color:#FAFBFF;
+    margin: 0px 0px 20px 20px;
+}
+
+.step-37{
+   width: 220px;
+    height: 200px;
+    background-color:#FAFBFF ;
+}
+
+.step-38{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.step-39{
+    width: 700px;
+    height: 450px;
+    background-color:#FAFBFF ;
+    position: relative;
+    left: 560px;
+    bottom: 630px;
+    margin-top: 30px;
+}
+
+.step-40{
+    margin-top: 30px;
+}
+
+.input-1{
+    width: 220px;
+    height: 30px;
+    
+}
+
+.step-41{
+    margin: 15px 0px 0px 0px;  
+}
+
+.input-2{
+    width:  450px;
+    height: 30px;
+}
+
+
+.textarea{
+    margin:20px 0px 0px 0px ;
+    padding: 20px 0px 0px 20px;
+}
+
+.button-5{
+position: relative;
+top: 50px;
+right: 290px;
+width: 170px;
+height: 40px;
+background-color: #4151f4;
+color: white;
+font-family: sans-serif;
+font-size: 18px;
+border: 1px solid #4151f4;
+border-radius: 7px;
+}
+
+.button-5:hover{
+    opacity: 0.8;
+}
+
+.last-heading{
+    text-align: center;
+}
+
+.parent{    
+position: relative;
+bottom: 600px; 
+
+
+}
+
+.search-bar {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Nunito", sans-serif;
+    background-color: #f6f9ff;
+    margin: 0px 0px 0px 200px;
+
+}
+
+.last-search-bar {
+    height: 50px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+.button-subscirbe {
+    height: 45px;
+    width: 110px;
+    font-size: 17px;
+    font-family: "Nunito", sans-serif;
+    color: white;
+    background-color: #4154F1;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-subscirbe:hover {
+    background-color: #4170F5;
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+
+
+.step-42 {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    height: 400px;
+}
+
+.step-43 {
+    padding-top: 50px;
+    border: none;
+    width: 35%;
+}
+
+
+.step-44{
+    color: #7a7a7a;
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+}
+
+.fb-hover:hover {
+    fill: #012970;
+    transform: scale(1)
+    transition: all 0.5s ease;
+}
+
+.step-45 {
+    background-image: url('https://cdn.wallpapersafari.com/89/46/txmrM7.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    width: 65%;
+    display: flex;
+    padding-left: 50px;
+}
+
+.step-46 {
+    padding-top: 30px;
+    border: none;
+    width: 250px;
+}
+
+.list-heading {
+    font-family: "Nunito", sans-serif;
+    color: #012970;
+}
+
+.span-1{
+    color: #7a7a7a;
+    font-size: 12px;
+}
+
+.list-para {
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+}
+
+.list-para:hover {
+    color: #4154F1;
+    cursor: pointer;
+}
+
+.last-para2 {
+    color: #646464;
+    font-family: "Nunito", sans-serif;
+}
+
+
+.last-{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #bdcefd;
+    background-color: #F6F9FF;
+    height: 100px;
+}
+
+.last-para-1 {
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+    line-height: 0px;
+}
+
+.last-word {
+    color: #4154F1;
+    font-family: "Nunito", sans-serif;
+}
+
+.last-word:hover {
+    color: #7595eb;
+    cursor: pointer;
+}
+
+.go-to-top {
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    background-color: #4154F1;
+    height: 40px;
+    width: 40px;
+    left: 610px;
+    bottom: 25px;
+}
+
+.go-to-top:hover {
+    opacity: 0.7
+}
+
+.top-icon {
+    margin-left: 5.6px;
+    position: absolute;
+    top: 7px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 1px;
+
+    }
+
+
+
+ 
+.logo {
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    right: 230px;
+}
+    
+    
+
+
+.underline {
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+    color: #4151f4;
+    padding-bottom: 6px;
+    border: 1px solid white;
+    font-weight: bold;
+    position: relative;
+    bottom: 50px;
+    left: 75px;
+}
+
+    
+
+
+.container-image{
+    background-image: url('https://expertizo.pk/assets/img/hero-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1500px;
+    margin: 0px auto;
+    
+}
+
+    .step-2 {
+        font-size: 20px;
+        color: darkblue;
+        position: relative;
+        bottom: 170px;
+        right: 40px;
+    }
+
+    
+.step-3 {
+    font-size: 18px;
+    margin-top: 1px;
+    position: relative;
+    bottom: 198px;
+    right: 35px;
+}
+
+
+
+.button1 {
+    border: 1px solid #4154f1;
+    background-color: #4151f4;
+    color: white;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 200px;
+    font-size: 15px;
+    margin: 0px 0px 0px 30px;
+    font-family:Nunito ,sans-serif;
+}
+    .step-5{
+        flex-direction: column;
+        position: absolute;
+        top: 320px;
+        left: 10px;
+    }
+  
+.step-6 {
+    background-color: white;
+    padding: 20px 20px 0px 40px;
+    position: relative;
+    top: 90px;
+    display: flex;
+    font-family: sans-serif;
+    max-width: max-content;
+}
+
+.step-6 {
+    background-color: white;
+    padding: 20px 20px 0px 40px;
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    max-width: max-content;
+}
+
+
+.step-7 {
+    padding: 0px 0px 0px 20px;
+    background-color: #f6f9ff;
+}
+.h4 {
+     position: relative;
+     left: 10px;  
+    color: #4151f4;
+    padding: 0px 0px 0px 20px;
+}
+
+.p {
+    font-size: 20px;
+    color: darkblue;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+    display: flex;
+    background-color: #f6f9ff;
+    max-width: max-content;
+    width: 350px;
+}
+
+
+.p-1 {
+    font-size: 20px;
+    opacity: 0.8;
+    width: 300px;
+    padding: 0px 100px 0px 60px;
+    position: relative;
+    right: 40px;
+}  
+
+.picture-image{
+    position: relative;
+    top: 600px;
+    right: 500px;
+}
+
+.child{
+position: relative;
+bottom: 850px;
+}
+
+.p-18{
+    position: relative;
+    bottom: 220px;
+    text-align: center;
+    color: #4151f4;
+}
+
+.h2-3{
+    text-align: center;
+    font-size: 30px;
+    color: #012970;
+    flex-direction: column;
+    position: relative;
+    bottom: 220px;
+}
+
+.step-9 {
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    bottom: 210px;
+}
+
+.p-19{
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+    color: #4151f4;
+}
+
+.h2-4{
+text-align: center;
+position: relative;
+bottom: 200px;
+color: darkblue;
+}
+
+
+
+.step-10 {
+    background-color: white;
+    padding: 30px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 210px;  
+    }
+
+
+
+    .cards {
+        width: 380px;
+        height: 380px;
+        background-color: white;
+        margin-left: 90px;
+        border-bottom: 3px solid #2db6fa;
+        border-radius: 5px;
+    }
+    
+
+    .card-1 {
+        width: 380px;
+        height: 380px;
+        background-color: white;
+        border-bottom: 3px solid #FD7E14;
+        border-radius: 5px;
+        margin-right: 20px;
+        text-align: center;
+        margin: 20px 0px 0px 90px;
+    }
+
+    
+.card-2 {
+    width: 380px;
+    height: 380px;
+    background-color: white;
+    border-bottom: 3px solid green;
+    border-radius: 5px;
+    margin:20px 0px 0px 90px;
+}
+
+.card-3  {
+
+    width: 380px;
+    height: 380px;
+    background-color: white;
+    margin: 20px 0px 0px 90px;
+    border-bottom: 4px solid red;
+    border-radius: 5px;
+}
+
+
+.card-4 {
+    width: 380px;
+    height: 380px;
+    background-color: white;
+    border-bottom: 4px solid purple;
+    border-radius: 5px;
+    margin: 20px 0px 0px 90px;
+
+}
+
+
+
+.card-5 {
+    width: 380px;
+    height: 380px;
+    background-color: white;
+    border-bottom: 4px solid #D63384;
+    border-radius: 5px;
+    margin: 20px 0px 0px 90px;
+}
+
+}
+
+
+
+
